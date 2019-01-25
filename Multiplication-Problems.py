@@ -19,6 +19,6 @@ for b in range(1000):
 
         if ranswer == answer:
             print("Correct!")
-            a = a + 1 
+            a += 1 
             
 
