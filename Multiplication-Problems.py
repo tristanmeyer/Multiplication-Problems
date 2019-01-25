@@ -3,7 +3,8 @@
 from random import randint
 
 a = 0
-for a in range(1000):
+
+for b in range(1000):
     if a < 5:
         
         ix = randint(1,10)
@@ -15,11 +16,9 @@ for a in range(1000):
         
         if ranswer != answer:
             print("Incorrect, the answer was", ranswer)
-            print(a)
 
         if ranswer == answer:
             print("Correct!")
             a = a + 1 
-            print(a)
             
 
