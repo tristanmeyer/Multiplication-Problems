@@ -14,7 +14,7 @@ for a in range(1000):
         ranswer = ix*iy
         
         if ranswer != answer:
-            print("Incorrect, the answer was",ranswer)
+            print("Incorrect, the answer was", ranswer)
             print(a)
 
         if ranswer == answer:
